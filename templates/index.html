@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Slots APP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <div class="container text-center">
+            <br><br>
+        <h1>Parking Slots</h1>
+            <br><br><br>
+            <br><br><br><br><br>
+        <a href="{{ url_for('plate_predict_page') }}" class="btn btn-outline-dark">Click here for car plate number detection</a>
+		    <br><br><br>
+		<a href="{{ url_for('park_predict_page') }}" class="btn btn-outline-dark">Click here for car parking slots detection</a>
+		    <br><br><br>
+		<a href="{{ url_for('car_predict_page') }}" class="btn btn-outline-dark">Click here for checking available parking slots</a>
+					<br><br><br><br><br>
+    </div>
+</body>
+</html>
